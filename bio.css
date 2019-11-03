@@ -1,0 +1,46 @@
+body {
+  background-color: lightblue;
+  background-image: url("images/universe.jpg");
+  background-size: 100%;
+  margin: 20px;
+  padding: 10px;
+  border: 2px solid black;
+  outline-style: double;
+  outline-color: white;
+  font-family: "Courier New";
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  font-size: 50;
+}
+table {
+  color: white;
+  background: rgba(10, 0, 50, 0.7);
+  border: 2px solid rgba(255, 255, 255, 0.2);
+}
+
+td {
+  vertical-align: top;
+  padding: 10px;
+}
+/* unvisited link */
+a:link {
+  color: lightblue;
+}
+
+/* visited link */
+a:visited {
+  color: grey;
+}
+
+/* mouse over link */
+a:hover {
+  color: violet;
+}
+
+/* selected link */
+a:active {
+  color: lightblue;
+}
