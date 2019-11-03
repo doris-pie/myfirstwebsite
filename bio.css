@@ -22,6 +22,7 @@ h1 {
 
 img {
   height: 150px;
+  float: right;
 }
 table {
   color: white;
