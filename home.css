@@ -1,0 +1,74 @@
+body{
+  font-family: "Verdana", sans-serif;
+}
+
+#top {
+  background-color: rgba(70,150,100,0.9);
+  width: 1000px;
+  height: 80px;
+
+}
+#left {
+  background-color: rgba(70,150,100,0.3);
+  width: 300px;
+  height:500px;
+  float:left;
+}
+#main{
+  background-color: rgba(70,150,100,0.1);
+  width: 680px;
+  height:500px;
+  float:left
+}
+.fancy{
+  font-style: oblique;
+  font-weight: bolder;
+  color: Darkgreen;
+}
+div{
+  margin: 0px;
+  padding: 10px;
+}
+h1{
+  text-align: center;
+}
+/* unvisited link */
+a:link {
+  color: Navy;
+}
+
+/* visited link */
+a:visited {
+  color: Darkgreen;
+}
+
+/* mouse over link */
+a:hover {
+  color: violet;
+}
+
+/* selected link */
+a:active {
+  color: Darkred;
+}
+
+@media only screen and (max-width: 600px){
+  #top {
+    background-color: rgba(70,150,100,0.9);
+    width: 500px;
+    height: 80px;
+
+  }
+  #left {
+    background-color: rgba(70,150,100,0.3);
+    width: 100px;
+    height:500px;
+    float:left;
+  }
+  #main{
+    background-color: rgba(70,150,100,0.1);
+    width: 380px;
+    height:500px;
+    float:left
+  }
+}
